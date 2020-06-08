@@ -102,7 +102,7 @@ ul a:hover {
 
 .dennis {
   width: 50%;
-  margin: 20px 25%;
+  margin: 20px 28%;
 }
 
 .share {
@@ -136,11 +136,55 @@ ul a:hover {
 
 .main-paragraph {
   margin-top: 30px;
-  max-width: 700px;
+  max-width: 650px;
 }
 
 .main-paragraph p {
-  font-size: 1.5rem;
-  line-height: 2.5rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  justify-content: center;
   margin: 10px 0;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+}
+
+.grid-section {
+  max-width: 70%;
+  margin: 0 auto;
+}
+.grid-header p {
+  color: rgb(109, 106, 106);
+  font-size: small;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 2%;
+}
+
+.grid div img {
+  max-width: 100%;
+  height: 200px;
+  margin: 0;
+}
+
+.grid div p span {
+  font-weight: bold;
+}
+
+.grid-footer {
+  margin: 4% 0;
+}
+
+.grid-footer hr {
+  max-width: 6%;
+  border: 0.5px solid black;
+  margin: 1% 0;
+}
+
+.grid-footer p {
+  color: rgb(41, 41, 41);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
