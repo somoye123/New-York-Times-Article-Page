@@ -3,10 +3,10 @@
   padding: 0;
   margin: 0;
 }
+
 body {
-  background-color: rgb(255, 255, 255);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #fff;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 nav {
@@ -42,18 +42,42 @@ ul a {
   cursor: default;
 }
 
+.nav-right a {
+  color: black;
+  font-weight: bold;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.offer a {
+  text-decoration: none;
+  color: rgb(74, 74, 141);
+}
+
+.editor-pick a {
+  color: black;
+  margin: 30px 10px;
+  text-decoration: none;
+}
+
+.footer-title a {
+  float: right;
+  text-decoration: none;
+  color: #6b6bdd;
+}
+
+.footer-end a {
+  font-size: 13px;
+  font-weight: 200;
+  text-transform: initial;
+}
+
 ul a:hover {
   text-decoration: underline;
 }
 
 .nav-right {
   margin: 0 7px 0 0;
-}
-.nav-right a {
-  color: black;
-  font-weight: bold;
-  padding: 0 5px;
-  cursor: pointer;
 }
 
 .nav-right button {
@@ -115,6 +139,14 @@ ul a:hover {
   float: right;
 }
 
+footer ul li {
+  list-style: none;
+}
+
+.footer-end li {
+  padding: 0 20px;
+}
+
 .share ul li {
   display: inline;
   font-size: 24px;
@@ -141,14 +173,17 @@ ul a:hover {
   padding: 10px 0;
 }
 
+aside hr {
+  margin: 20px 0;
+}
+
+footer hr {
+  margin: 20px 0;
+}
+
 .offer hr {
   width: 15%;
   margin: 20px auto;
-}
-
-.offer a {
-  text-decoration: none;
-  color: rgb(74, 74, 141);
 }
 
 aside {
@@ -161,10 +196,6 @@ aside h5 {
   font-size: 20px;
 }
 
-aside hr {
-  margin: 20px 0;
-}
-
 .editor-pick img {
   margin: 20px 0;
   width: 50%;
@@ -174,10 +205,8 @@ aside hr {
   display: flex;
 }
 
-.editor-pick a {
-  color: black;
-  margin: 30px 10px;
-  text-decoration: none;
+.dennis-footer p a {
+  color: #666;
 }
 
 .editor-pick a:hover {
@@ -201,6 +230,7 @@ aside hr {
   max-width: 70%;
   margin: 0 auto;
 }
+
 .grid-header p {
   color: rgb(109, 106, 106);
   font-size: small;
@@ -213,10 +243,24 @@ aside hr {
   margin-top: 2%;
 }
 
+.dennis-img img {
+  max-width: 100%;
+}
+
 .grid div img {
   max-width: 100%;
   height: 200px;
   margin: 0;
+}
+
+.embed-video p span {
+  color: #808080;
+  font-size: 0.85em;
+}
+
+.dennis-img p span {
+  color: #808080;
+  font-size: 0.85em;
 }
 
 .grid div p span {
@@ -234,14 +278,15 @@ aside hr {
 }
 
 .grid-footer p {
-  color: rgb(41, 41, 41);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #292929;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
 }
+
 .dennis-continue {
   width: 50%;
   margin: 20px auto;
 }
+
 .embed-video iframe {
   max-width: 100%;
   margin-top: 5%;
@@ -249,44 +294,25 @@ aside hr {
 }
 
 .embed-video p {
-  color: rgb(66, 65, 65);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #424141;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
   margin-bottom: 7%;
-}
-
-.embed-video p span {
-  color: rgb(128, 128, 128);
-  font-size: 0.85em;
-}
-
-.dennis-img img {
-  max-width: 100%;
 }
 
 .dennis-img p {
   max-width: 100%;
-  color: rgb(66, 65, 65);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.dennis-img p span {
-  color: rgb(128, 128, 128);
-  font-size: 0.85em;
+  color: #424141;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .dennis-footer p {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   font-size: 0.75rem;
   line-height: 1rem;
   width: calc(100% - 40px);
   max-width: 600px;
-  color: rgb(102, 102, 102);
+  color: #666;
   margin: 1em 0;
-}
-.dennis-footer p a {
-  color: rgb(102, 102, 102);
 }
 
 .dennis-footer button {
@@ -294,7 +320,7 @@ aside hr {
   font-family: sans-serif;
   text-transform: uppercase;
   padding: 10px 80px;
-  background-color: rgb(86, 123, 149);
+  background-color: #567b95;
   border: 0.5px solid rgb(50, 104, 145);
   border-radius: 3px;
   margin-top: 1.5%;
@@ -303,7 +329,7 @@ aside hr {
 
 .dennis-footer ul {
   list-style: none;
-  padding: 10px 0px;
+  padding: 10px 0;
   margin: 1.5% 3% 0;
   float: right;
 }
@@ -320,6 +346,7 @@ aside hr {
   margin: 0 auto;
   clear: both;
 }
+
 .recommendation-area {
   display: grid;
   gap: 5%;
@@ -369,6 +396,7 @@ aside hr {
   font-family: sans-serif;
   font-size: 0.85em;
 }
+
 .article h3 {
   font-size: 1.125rem;
   color: rgb(18, 18, 18);
@@ -409,20 +437,10 @@ aside hr {
   padding: 20px 0;
 }
 
-.footer-title a {
-  float: right;
-  text-decoration: none;
-  color: rgb(107, 107, 221);
-}
-
 #footer-links {
   clear: right;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-}
-
-footer ul li {
-  list-style: none;
 }
 
 #footer-links a {
@@ -437,23 +455,9 @@ footer ul li {
   margin-bottom: 10px;
 }
 
-footer hr {
-  margin: 20px 0;
-}
-
 .footer-end {
   display: flex;
   justify-content: space-between;
-}
-
-.footer-end a {
-  font-size: 13px;
-  font-weight: 200;
-  text-transform: initial;
-}
-
-.footer-end li {
-  padding: 0 20px;
 }
 
 .footer-nav {
