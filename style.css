@@ -28,6 +28,7 @@ nav ul {
   display: flex;
   align-items: center;
 }
+
 ul li {
   padding: 0 10px;
   cursor: pointer;
@@ -291,7 +292,7 @@ ul a:hover {
 }
 
 .more-in-space h4,
-.editor-pick h4 {
+.editor-pick h4, .most-popular h3 {
   margin: 2% 0;
 }
 
@@ -328,4 +329,18 @@ ul a:hover {
   color: #999;
   font-family: sans-serif;
   font-size: 0.85em;
+}
+
+.most-popular h3 {
+  margin-top: 20px;
+}
+
+.most-popular hr {
+  margin: 20px 0;
+  border: 0.5px solid grey;
+}
+
+#most-popular li {
+  line-height: 29px;
+
 }
