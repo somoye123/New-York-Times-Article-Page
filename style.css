@@ -29,7 +29,7 @@ nav ul {
   align-items: center;
 }
 
-ul li {
+nav ul li {
   padding: 0 10px;
   cursor: pointer;
 }
@@ -79,6 +79,7 @@ ul a:hover {
 }
 
 .hero img {
+  width: 80%;
   margin: 30px 10% 0;
 }
 
@@ -133,6 +134,54 @@ ul a:hover {
 .container {
   clear: both;
   display: flex;
+}
+
+.offer {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.offer hr {
+  width: 15%;
+  margin: 20px auto;
+}
+
+.offer a {
+  text-decoration: none;
+  color: rgb(74, 74, 141);
+}
+
+aside {
+  max-width: 30%;
+  align-self: center;
+  margin-left: 60px;
+}
+
+aside h5 {
+  font-size: 20px;
+}
+
+aside hr {
+  margin: 20px 0;
+}
+
+.editor-pick img {
+  margin: 20px 0;
+  width: 50%;
+}
+
+.editor-pick {
+  display: flex;
+}
+
+.editor-pick a {
+  color: black;
+  margin: 30px 10px;
+  text-decoration: none;
+}
+
+.editor-pick a:hover {
+  text-decoration: underline;
 }
 
 .main-paragraph {
@@ -196,6 +245,7 @@ ul a:hover {
 .embed-video iframe {
   max-width: 100%;
   margin-top: 5%;
+  border: none;
 }
 
 .embed-video p {
@@ -286,13 +336,15 @@ ul a:hover {
 .most-popular {
   grid-area: popular;
 }
-.editor-pick {
+
+.rec-editor-pick {
   grid-area: editor-pick;
   margin-top: -8%;
 }
 
 .more-in-space h4,
-.editor-pick h4, .most-popular h3 {
+.rec-editor-pick h4,
+.most-popular h3 {
   margin: 2% 0;
 }
 
@@ -335,12 +387,96 @@ ul a:hover {
   margin-top: 20px;
 }
 
-.most-popular hr {
-  margin: 20px 0;
-  border: 0.5px solid grey;
-}
-
 #most-popular li {
   line-height: 29px;
+  list-style: none;
+  border-top: 1px solid rgb(167, 166, 166);
+  margin: 20px 0;
+}
 
+#most-popular a {
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.footer-container {
+  width: 85%;
+  margin: 7% auto;
+}
+
+.footer-title {
+  border-top: 6px double rgb(201, 201, 201);
+  padding: 20px 0;
+}
+
+.footer-title a {
+  float: right;
+  text-decoration: none;
+  color: rgb(107, 107, 221);
+}
+
+#footer-links {
+  clear: right;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+footer ul li {
+  list-style: none;
+}
+
+#footer-links a {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5px 0;
+}
+
+#footer-links .title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+footer hr {
+  margin: 20px 0;
+}
+
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-end a {
+  font-size: 13px;
+  font-weight: 200;
+  text-transform: initial;
+}
+
+.footer-end li {
+  padding: 0 20px;
+}
+
+.footer-nav {
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid gray;
+  min-width: 100%;
+  height: 8%;
+  background-color: white;
+}
+
+.footer-nav .expand {
+  float: right;
+  display: flex;
+  margin-right: 40px;
+}
+
+.footer-nav p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.expand h5 {
+  padding: 0 10px;
 }
