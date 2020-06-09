@@ -1,10 +1,8 @@
 ## Mint.com’s Sign up Page Clone
+
 This is a clone of New York Times Article Page, a part of the technical curriculum projects in Microverse.
 
-## Author:
-Somoye Ayotunde Peter
-Abiola Doyinsola Adeyemi
-<!-- ![Screenshot](/img/my-form.JPG) -->
+![screenshot](./screenshot.png)
 
 ## Built With
 
@@ -12,20 +10,26 @@ Abiola Doyinsola Adeyemi
 - CSS
 
 ## Live Demo
-<!-- [Live Demo Link](https://rawcdn.githack.com/Abidoyinsola1/form-project/3e3f33f2809d63114d4a7387109f894ac629ad2b/index.html) -->
 
-<!-- ## Author
+[Live Demo Link](https://rawcdn.githack.com/somoye123/New-York-Times-Article-Page/82534e160f5308c38e0b8676336f41d24c053553/index.html)
+
+## Author
+
+👤 **Somoye Ayotunde Peter**
+
+- Github: [@somoye123](https://github.com/somoye123)
+- Twitter: [@twitterhandle](https://twitter.com/ayotunde_197)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/somoye-ayotunde-03a471161)
 
 👤 **Abiola Doyinsola Adeyemi**
+
 - Github: [@githubhandle](https://github.com/abidoyinsola1)
 - Twitter: [@twitterhandle](https://twitter.com/abidoyinsola)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/doyinsola-adeyemi) -->
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/doyinsola-adeyemi)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/Abidoyinsola1/form-project/tree/myform).
 
 ## Show your support
 
