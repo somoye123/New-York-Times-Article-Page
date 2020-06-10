@@ -15,7 +15,7 @@ nav {
   right: 0;
   background: #fff;
   border-bottom: 1px solid #e2e2e2;
-  height: 6%;
+  height: 8%;
   padding: 8px 15px 3px;
   position: fixed;
   display: flex;
@@ -42,13 +42,6 @@ ul a {
   cursor: default;
 }
 
-.nav-right a {
-  color: black;
-  font-weight: bold;
-  padding: 0 5px;
-  cursor: pointer;
-}
-
 .offer a {
   text-decoration: none;
   color: rgb(74, 74, 141);
@@ -58,6 +51,7 @@ ul a {
   color: black;
   margin: 30px 10px;
   text-decoration: none;
+  font-size: 13px;
 }
 
 .footer-title a {
@@ -82,9 +76,10 @@ ul a:hover {
 
 .nav-right button {
   color: white;
-  background-color: black;
-  padding: 5px 8px;
+  background-color: #567b95;
+  padding: 11px 10px;
   border-radius: 5px;
+  border: none;
 }
 
 .hero h1 {
@@ -92,7 +87,7 @@ ul a:hover {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-weight: 600;
   font-style: italic;
-  font-size: 55px;
+  font-size: 53px;
   line-height: 72px;
   margin-left: 15%;
   max-width: 900px;
@@ -127,12 +122,12 @@ ul a:hover {
 }
 
 .dennis {
-  width: 50%;
+  width: 70%;
   margin: 20px 28%;
 }
 
 .share {
-  margin: 20px 0;
+  padding: 20px 0;
 }
 
 .share ul {
@@ -149,7 +144,7 @@ footer ul li {
 
 .share ul li {
   display: inline;
-  font-size: 24px;
+  font-size: 15px;
   padding: 10px;
 }
 
@@ -164,8 +159,11 @@ footer ul li {
 }
 
 .container {
-  clear: both;
   display: flex;
+}
+
+.paragraph {
+  clear: both;
 }
 
 .offer {
@@ -187,9 +185,9 @@ footer hr {
 }
 
 aside {
-  max-width: 30%;
+  max-width: 29%;
   align-self: center;
-  margin-left: 60px;
+  margin-left: 40px;
 }
 
 aside h5 {
@@ -197,16 +195,27 @@ aside h5 {
 }
 
 .editor-pick img {
-  margin: 20px 0;
-  width: 50%;
+  padding: 15px 0;
+  width: 23%;
 }
 
 .editor-pick {
   display: flex;
+  margin: -6% 0;
 }
 
 .dennis-footer p a {
   color: #666;
+}
+
+.dennis-footer ul a {
+  color: rgb(128, 128, 128);
+  cursor: pointer;
+}
+
+.footer-end li a {
+  font-size: 56%;
+  font-weight: normal;
 }
 
 .editor-pick a:hover {
@@ -429,7 +438,7 @@ aside h5 {
 
 .footer-container {
   width: 85%;
-  margin: 7% auto;
+  margin: 11% auto 5%;
 }
 
 .footer-title {
@@ -456,6 +465,8 @@ aside h5 {
 }
 
 .footer-end {
+  margin-top: 20px;
+  border-top: 0.5px solid gray;
   display: flex;
   justify-content: space-between;
 }
@@ -463,24 +474,28 @@ aside h5 {
 .footer-nav {
   position: fixed;
   bottom: 0;
+  left: 0;
+  right: 0;
   border-top: 1px solid gray;
   min-width: 100%;
-  height: 8%;
+  height: 7%;
   background-color: white;
-}
-
-.footer-nav .expand {
-  float: right;
-  display: flex;
-  margin-right: 40px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
 }
 
 .footer-nav p {
-  margin-top: 10px;
-  text-align: center;
-  font-size: 18px;
+  margin: 10px 0 0;
+}
+
+.expand {
+  display: flex;
+  float: right;
+  margin-right: 10%;
+  margin-top: -1.2%;
 }
 
 .expand h5 {
-  padding: 0 10px;
+  padding: 0 20px;
 }
