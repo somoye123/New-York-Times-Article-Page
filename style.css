@@ -87,7 +87,7 @@ ul a:hover {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-weight: 600;
   font-style: italic;
-  font-size: 53px;
+  font-size: 50px;
   line-height: 72px;
   margin-left: 15%;
   max-width: 900px;
@@ -156,6 +156,10 @@ footer ul li {
 .social {
   background-color: #e2e2e2;
   border-radius: 50%;
+}
+
+.share a {
+  cursor: pointer;
 }
 
 .container {
@@ -356,6 +360,10 @@ aside h5 {
   clear: both;
 }
 
+.recommendation-section hr {
+  margin: 50px 0 0;
+}
+
 .recommendation-area {
   display: grid;
   gap: 5%;
@@ -371,6 +379,10 @@ aside h5 {
 
 .most-popular {
   grid-area: popular;
+}
+
+.most-popular hr {
+  margin: 50px 0 0;
 }
 
 .rec-editor-pick {
@@ -406,11 +418,15 @@ aside h5 {
   font-size: 0.85em;
 }
 
-.article h3 {
+.article a h3 {
   font-size: 1.125rem;
   color: rgb(18, 18, 18);
   font-family: sans-serif;
   margin: 4px 0;
+}
+
+.article a {
+  text-decoration: none;
 }
 
 .article p {
