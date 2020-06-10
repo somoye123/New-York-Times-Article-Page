@@ -11,7 +11,7 @@ This is a clone of New York Times Article Page, a part of the technical curricul
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/somoye123/New-York-Times-Article-Page/cbe6d2868637f4613808b8d8865281047d934fa0/index.html)
+[Live Demo Link](https://rawcdn.githack.com/somoye123/New-York-Times-Article-Page/11c260cde06d1bf011cdb988b70114bfafd2ea15/index.html)
 
 ## Author
 
