@@ -1,4 +1,4 @@
-## Mint.com’s Sign up Page Clone
+## New York Times Article page
 
 This is a clone of New York Times Article Page, a part of the technical curriculum projects in Microverse.
 
@@ -11,7 +11,7 @@ This is a clone of New York Times Article Page, a part of the technical curricul
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/somoye123/New-York-Times-Article-Page/82534e160f5308c38e0b8676336f41d24c053553/index.html)
+[Live Demo Link](https://rawcdn.githack.com/somoye123/New-York-Times-Article-Page/a59912741c5ee8986a1a8c27d296678f520e924a/index.html)
 
 ## Author
 
