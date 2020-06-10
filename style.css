@@ -15,18 +15,18 @@ nav {
   right: 0;
   background: #fff;
   border-bottom: 1px solid #e2e2e2;
-  height: 8%;
-  padding: 8px 15px 3px;
+  height: 11vh;
+  padding: 10px 15px;
   position: fixed;
   display: flex;
   justify-content: space-between;
   min-width: 100vw;
+  align-items: center;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  align-items: center;
 }
 
 nav ul li {
@@ -85,7 +85,7 @@ ul a:hover {
 .nav-right button {
   color: white;
   background-color: #567b95;
-  padding: 11px 10px;
+  padding: 9px;
   border-radius: 5px;
   border: none;
 }
