@@ -66,6 +66,14 @@ ul a {
   text-transform: initial;
 }
 
+.share a {
+  cursor: pointer;
+}
+
+.article a {
+  text-decoration: none;
+}
+
 ul a:hover {
   text-decoration: underline;
 }
@@ -156,10 +164,6 @@ footer ul li {
 .social {
   background-color: #e2e2e2;
   border-radius: 50%;
-}
-
-.share a {
-  cursor: pointer;
 }
 
 .container {
@@ -418,6 +422,10 @@ aside h5 {
   font-size: 0.85em;
 }
 
+.most-popular h3 {
+  margin-top: 20px;
+}
+
 .article a h3 {
   font-size: 1.125rem;
   color: rgb(18, 18, 18);
@@ -425,19 +433,11 @@ aside h5 {
   margin: 4px 0;
 }
 
-.article a {
-  text-decoration: none;
-}
-
 .article p {
   text-align: left;
   color: #999;
   font-family: sans-serif;
   font-size: 0.85em;
-}
-
-.most-popular h3 {
-  margin-top: 20px;
 }
 
 #most-popular li {
